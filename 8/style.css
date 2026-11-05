@@ -1,0 +1,103 @@
+body {
+  background-color: #E6F0DC;
+  color: #264737;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 45px 12px;
+}
+ 
+.main {
+  max-width: 1030px;
+  margin: 0 auto;
+}
+ 
+.brand {
+  margin: 0 0 18px;
+  color: #3F6E52;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+ 
+h1 {
+  margin: 0 0 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 48px;
+}
+h1 span {
+  color: #75A068;
+  font-style: italic;
+}
+ 
+.intro {
+  margin: 0 0 45px;
+  color: #5F7F6C;
+  font-size: 18px;
+}
+ 
+/* Les 3 cartes côte à côte avec inline-block */
+.plant {
+  display: inline-block;
+  vertical-align: top;
+  width: 298px;
+  margin: 0 10px 15px;
+  padding: 12px 12px 26px;
+  background-color: white;
+  border: 2px solid #BDD2B7;
+  border-radius: 22px;
+  text-align: left;
+  box-sizing: border-box;
+}
+ 
+.plant img {
+  display: block;
+  width: 100%;
+  border-radius: 14px;
+}
+ 
+.plant h2 {
+  margin: 18px 7px 8px;
+  font-size: 24px;
+}
+ 
+.plant p {
+  margin: 0 7px 14px;
+  color: #6B8574;
+  font-size: 14px;
+}
+ 
+.plant .price {
+  color: #2D5A40;
+  font-size: 24px;
+  font-weight: bold;
+}
+ 
+.plant a {
+  display: block;
+  padding: 14px;
+  background-color: #305E47;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+.plant a:hover { background-color: #264737; }
+ 
+.slogan {
+  box-sizing: border-box;
+  max-width: 666px;
+  margin: 30px auto 25px;
+  padding: 18px;
+  background-color: #FDF4CC;
+  border-radius: 10px;
+  font-size: 16px;
+}
+ 
+.footer {
+  color: #6F8F7C;
+  font-size: 12px;
+}
+ 
